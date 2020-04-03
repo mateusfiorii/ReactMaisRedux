@@ -78,7 +78,6 @@ class Todo extends Component {
                     handleClear={this.handleClear}
                 />
                 <TodoList
-                    list={this.state.list}
                     handleRemove={this.handleRemove}
                     handleMarkAsDone={this.handleMarkAsDone}
                     handleMarkingAsPending={this.handleMarkingAsPending}
