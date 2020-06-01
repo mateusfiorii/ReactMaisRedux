@@ -7,6 +7,6 @@ export default (state = INITIAL_STATE, action) => {
         case 'TAB_SHOWED':
             return { ...state, visible: action.payload }
         default:
-            return state;
+            return state
     }
 }

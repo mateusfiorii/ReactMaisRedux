@@ -8,7 +8,7 @@ module.exports = {
         filename: './app.js'
     },
     devServer: {
-        port: 8080,
+        port: 5000,
         contentBase: './public',
     },
     resolve: {
@@ -19,7 +19,7 @@ module.exports = {
             bootstrap: 'modules/admin-lte/bootstrap/js/bootstrap.js'
         }
     },
-    plugins: [
+    plugins: [ 
         new webpack.ProvidePlugin({
             $: 'jquery',
             jQuery: 'jquery',
